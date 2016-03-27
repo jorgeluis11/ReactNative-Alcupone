@@ -7,7 +7,6 @@
 # Some modules have their own node_modules with overlap
 .*/node_modules/node-haste/.*
 
-<<<<<<< HEAD
 # Ignore react-tools where there are overlaps, but don't ignore anything that
 # react-native relies on
 .*/node_modules/react-tools/src/React.js
@@ -15,30 +14,7 @@
 .*/node_modules/react-tools/src/renderers/shared/event/eventPlugins/ResponderEventPlugin.js
 .*/node_modules/react-tools/src/shared/vendor/core/ExecutionEnvironment.js
 .*/node_modules/react-redux/node_modules/invariant/
-=======
-# Ugh
-.*/node_modules/babel.*
-.*/node_modules/babylon.*
-.*/node_modules/invariant.*
 
-# Ignore react and fbjs where there are overlaps, but don't ignore
-# anything that react-native relies on
-.*/node_modules/fbjs/lib/Map.js
-.*/node_modules/fbjs/lib/fetch.js
-.*/node_modules/fbjs/lib/ExecutionEnvironment.js
-.*/node_modules/fbjs/lib/ErrorUtils.js
-
-# Flow has a built-in definition for the 'react' module which we prefer to use
-# over the currently-untyped source
-.*/node_modules/react/react.js
-.*/node_modules/react/lib/React.js
-.*/node_modules/react/lib/ReactDOM.js
-
-.*/__mocks__/.*
-.*/__tests__/.*
-
-.*/commoner/test/source/widget/share.js
->>>>>>> 14c0c8fa603d9dc94a20c4c45c3394d76cb3b716
 
 # Ignore commoner tests
 .*/node_modules/commoner/test/.*
