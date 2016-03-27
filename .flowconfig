@@ -15,7 +15,6 @@
 .*/node_modules/react-tools/src/shared/vendor/core/ExecutionEnvironment.js
 .*/node_modules/react-redux/node_modules/invariant/
 
-
 # Ignore commoner tests
 .*/node_modules/commoner/test/.*
 
@@ -23,55 +22,25 @@
 .*/react-tools/node_modules/commoner/lib/reader.js
 
 # Ignore jest
-<<<<<<< HEAD
 .*/react-native/node_modules/jest-cli/.*
 
 [include]
 ./src
-=======
-.*/node_modules/jest-cli/.*
-
-# Ignore Website
-.*/website/.*
-
-[include]
-
->>>>>>> 14c0c8fa603d9dc94a20c4c45c3394d76cb3b716
 [libs]
 node_modules/react-native/Libraries/react-native/react-native-interface.js
 
 [options]
 module.system=haste
 
-<<<<<<< HEAD
 munge_underscores=true
 
-=======
-esproposal.class_static_fields=enable
-esproposal.class_instance_fields=enable
-
-munge_underscores=true
-
-module.name_mapper='^image![a-zA-Z0-9$_-]+$' -> 'GlobalImageStub'
-module.name_mapper='^[./a-zA-Z0-9$_-]+\.\(bmp\|gif\|jpg\|jpeg\|png\|psd\|svg\|webp\|m4v\|mov\|mp4\|mpeg\|mpg\|webm\|aac\|aiff\|caf\|m4a\|mp3\|wav\|html\)$' -> 'RelativeImageStub'
-
->>>>>>> 14c0c8fa603d9dc94a20c4c45c3394d76cb3b716
 suppress_type=$FlowIssue
 suppress_type=$FlowFixMe
 suppress_type=$FixMe
 
-<<<<<<< HEAD
 suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe\\($\\|[^(]\\|(\\(>=0\\.\\(1[0-4]\\|[0-9]\\).[0-9]\\)? *\\(site=[a-z,_]*react_native[a-z,_]*\\)?)\\)
 suppress_comment=\\(.\\|\n\\)*\\$FlowIssue\\((\\(>=0\\.\\(1[0-4]\\|[0-9]\\).[0-9]\\)? *\\(site=[a-z,_]*react_native[a-z,_]*\\)?)\\)? #[0-9]+
 suppress_comment=\\(.\\|\n\\)*\\$FlowFixedInNextDeploy
 
 [version]
 0.16.0
-=======
-suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe\\($\\|[^(]\\|(\\(>=0\\.\\(2[0-1]\\|1[0-9]\\|[0-9]\\).[0-9]\\)? *\\(site=[a-z,_]*react_native[a-z,_]*\\)?)\\)
-suppress_comment=\\(.\\|\n\\)*\\$FlowIssue\\((\\(>=0\\.\\(2[0-1]\\|1[0-9]\\|[0-9]\\).[0-9]\\)? *\\(site=[a-z,_]*react_native[a-z,_]*\\)?)\\)?:? #[0-9]+
-suppress_comment=\\(.\\|\n\\)*\\$FlowFixedInNextDeploy
-
-[version]
-0.21.0
->>>>>>> 14c0c8fa603d9dc94a20c4c45c3394d76cb3b716

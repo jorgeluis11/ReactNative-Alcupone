@@ -120,7 +120,8 @@ var styles = StyleSheet.create({
   },
   grouponInfoHalf:{
     justifyContent:'center',
-    alignSelf:'center'
+    alignSelf:'center',
+    
   },
   grouponInfoRow:{
   flex:1,
