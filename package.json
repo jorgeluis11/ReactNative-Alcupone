@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "App",
   "version": "0.0.1",
   "private": true,
@@ -24,5 +25,16 @@
     "eslint-plugin-filenames": "^0.1.2",
     "eslint-plugin-react": "^3.5.1",
     "redux-logger": "^2.6.1"
+=======
+  "name": "Alcupone",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-native": "^0.22.2"
+>>>>>>> 14c0c8fa603d9dc94a20c4c45c3394d76cb3b716
   }
 }

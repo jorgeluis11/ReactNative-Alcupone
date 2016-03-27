@@ -22,6 +22,15 @@ DerivedData
 *.xcuserstate
 project.xcworkspace
 
+<<<<<<< HEAD
+=======
+# Android/IJ
+#
+.idea
+.gradle
+local.properties
+
+>>>>>>> 14c0c8fa603d9dc94a20c4c45c3394d76cb3b716
 # node.js
 #
 node_modules/

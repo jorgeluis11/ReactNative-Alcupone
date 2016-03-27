@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 rootProject.name = 'App'
+=======
+rootProject.name = 'Alcupone'
+>>>>>>> 14c0c8fa603d9dc94a20c4c45c3394d76cb3b716
 
 include ':app'

@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.app">
+=======
+    package="com.alcupone">
+>>>>>>> 14c0c8fa603d9dc94a20c4c45c3394d76cb3b716
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,7 +14,12 @@
       android:theme="@style/AppTheme">
       <activity
         android:name=".MainActivity"
+<<<<<<< HEAD
         android:label="@string/app_name">
+=======
+        android:label="@string/app_name"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+>>>>>>> 14c0c8fa603d9dc94a20c4c45c3394d76cb3b716
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
