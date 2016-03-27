@@ -20,7 +20,7 @@ class TogglesContainer extends Component {
   render() {
     // console.log("list",this.props)
     return (
-        <View style={{flex:.25 ,flexDirection:'row', justifyContent:'center', flexWrap:'wrap'}}>
+        <View style={{flex:1, flexDirection:'row', justifyContent:'center', flexWrap:'wrap'}}>
           {
             this.props.list.map((site, i) => <Toggle dispatch={this.props.dispatch} handleToggle={() => this.handleToggle(i, site.active)} site={site} key={i} />)
           }

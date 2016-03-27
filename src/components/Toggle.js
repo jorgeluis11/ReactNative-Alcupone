@@ -54,23 +54,22 @@ var styles = StyleSheet.create({
     height: 81,
   },
   image: {
-    width:100, 
-    height:30,
+    width:80, 
+    height:20,
     resizeMode: 'stretch'
   },
   btnRedOutline:{
   		padding:5,
-      paddingTop:10,
-
-  		margin:7,
+      paddingTop:15,
+  		margin:5,
   		height: 55,
-  		borderColor: '#dddddd',
+  		borderColor: '#a8a4a0',
     	borderWidth: 2,
 	    // -webkit-transition: all ease-out .2s;
 	},
 	active:{
 	  padding:5,
-    paddingTop:10,
+    paddingTop:15,
     margin:7,
 	  height: 55,
 	  backgroundColor: 'rgba(250,86,58, 0.8)',

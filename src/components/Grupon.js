@@ -49,10 +49,10 @@ class Grupon extends Component {
             </View>
             <View style={styles.grouponInfoRow}>
                 <Text style={styles.grouponInfoHalf}>
-                  {from}
+                  {price}
                 </Text>
                 <Text style={styles.grouponInfoHalf}>
-                  {price}
+                  {from}
                 </Text>
             </View>
             <Text style={styles.textContainer}>
@@ -119,17 +119,17 @@ var styles = StyleSheet.create({
     opacity: 1,
   },
   grouponInfoHalf:{
-    justifyContent:'center',
-    alignSelf:'center',
-    
+    color:"white",
+    fontSize:25,
+
   },
   grouponInfoRow:{
   flex:1,
   flexDirection:'row',
-  justifyContent:'center',
   alignItems:'center',
+  justifyContent:'space-around',
   backgroundColor:'#FA563A',
-  height: 50,
+  height: 60,
   // overflow: hidden,
   }
 });

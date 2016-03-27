@@ -30,7 +30,7 @@ class GruponesContainer extends Component {
     if (this.props.list.length == 0) 
       return (
           <View style={styles.itemAlignCenter} >
-            <Text style={{alignSelf:'center'}}>Selecciona una pagina de Groupones!</Text>
+            <Text style={{alignSelf:'center', textAlign:'center',fontSize:22,color:"#444444"}}>Selecciona una pagina de Groupones!</Text>
           </View> 
         )
 
@@ -77,6 +77,7 @@ var styles = StyleSheet.create({
   itemAlignCenter:{
     alignSelf:'center',
     padding:10,
+    paddingTop:40,
     justifyContent:'center'
   },
 
