@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(../font/ProximaNova-Regular.otf);
+}
+body{
+  min-width: 380px;
+}
+html, .app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, sans-serif !important;
+
+}
+
+.a{
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, sans-serif !important;
+
+}
+/* Shared */
+
+.margin-top-sm{
+  margin-top: 5px;
+}
+
+/* Shared Ends */
+
+.row{
+  margin:0!important;
+}
+
+
+a{
+  color: #000 !important;
+}
+
+h5 strong a{
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+}
+
+hr {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.navbar{
+  min-height: 41px;
+  background-color:#FA563A;
+  border: 1px solid #FA563A;
+  border-radius: 0;
+}
+
+
+
+.logo{
+  height: 31px;
+  vertical-align: initial;
+}
+
+
+
+.logo-container{
+  left: 0;
+  top: 0;
+  /* text-align: center; */
+  margin: auto;
+  width: 100%;
+  margin-top: 3px;
+}
+
+.toggle-col{
+  display: block;
+  width: 32.32%;
+  margin:.5%;
+  float:left;
+  padding:0;
+  height: 60px;
+}
+
+.btn-red-outline{
+    border: 2px solid #a8a4a0;
+    -webkit-transition: all ease-out .2s;
+}
+
+.btn-red-outline.active{
+  background-color: rgba(250,86,58, 0.8) !important;
+  border-color: rgba(250,86,58, 0.8) !important;
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+.btn-red-outline:hover{
+  background-color: rgba(250,86,58, 0.8) !important;
+  border-color: rgba(250,86,58, 0.8) !important;
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+.img-size{
+  width: 90%;
+
+}
+
+.img-size.gustazos{
+  margin-top: 20px;
+}
+
+.img-size.oferta{
+  margin-top: 15px;
+}
+
+.img-size.ofertones{
+  margin-top: 15px;
+}
+
+.img-size.kokigo{
+  margin-top: 10px;
+}
+
+.img-size.prgoza{
+  margin-top: 10px;
+}
+
+.article-img img{
+  width: 102px;
+}
+
+.header-title {
+  font-family: 'Lora', sans-serif;
+  margin-top:-2px;
+  text-align: center;
+  margin-bottom: 30px; 
+}
+
+.story-container:hover{
+  background-color: #F5F5F5;
+  cursor:pointer;
+}
+
+.ui.inverted.dimmer .ui.loader {
+  margin-top: 10px;
+}
+
+.grey small{
+  color: grey;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+#logo-text{
+  text-shadow: -1px 0 rgba(0,0,0,0.2), 0 1px rgba(0,0,0,0.2), 1px 0 rgba(0,0,0,0.2), 0 -1px rgba(0,0,0,0.2);
+      display: inline;
+    color: white;
+}
+
+.groupon-image.from-logo {
+    display: block;
+    height: 50px;
+    background: url("../img/logo.png") top left no-repeat;
+    background-size: 100%;
+
+}
+
+.from-logo.groopanda {
+    background-position: 0 15px;
+}
+.from-logo.groupon {
+    background-position: -10px -60px;
+}
+.from-logo.gustazos {
+    background-position: 0 -72px;
+  }
+.from-logo.oferta {
+background-position: 0 -110px;
+}
+.from-logo.ofertones {
+background-position: 0 -146px;
+}
+.from-logo.peroquedescuentos {
+  background-position: 0 -194px;
+}
+
+.from-logo.kokigo {
+        background-position: 0 -352px;
+}
+.from-logo.prgoza {
+ background-position: 0 -396px;
+}
+
+
+.from-logo.puertoricolike {
+    background-position: 0 -455px;
+}
+
+
+
+.groupon-col{
+  /* height: 350px; */
+  margin-left:0.5%;
+  margin-right: 0.5%;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+.groupon-info-row{
+  background-color:#FA563A;
+  height: 50px;
+  overflow: hidden;
+}
+.groupon-info-row>h3,.groupon-info-row>div{
+  float:left;
+  width: 50%;
+  text-align: center;
+  margin-top:10px;
+  margin-bottom:0;
+  color:white;
+}
+
+.groupon-info-row>div>img{
+    width: 60%;  /* margin:0 auto; */
+}
+
+.description{
+  color:#444444;
+  padding:10px;
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.groupon-image-cut{
+  overflow:hidden;
+  /* height: 160px; */
+}
+
+.groupon-image{
+  width: 100%;
+}
+
+.row-heigh{
+height: 450px;
+}
